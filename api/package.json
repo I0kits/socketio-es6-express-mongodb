@@ -1,0 +1,40 @@
+{
+  "name": "socketio-es6-express-mongodb-api",
+  "version": "1.0.0",
+  "description": "A demo about socket.io on nodejs",
+  "main": "index.js",
+  "private": true,
+  "homepage": "https://github.com/I0kits/socketio-es6-express-mongodb",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:I0kits/socketio-es6-express-mongodb.git"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "express": "^4.15.3",
+    "express-graceful-exit": "^0.4.0",
+    "getenv": "^0.7.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.1",
+    "morgan": "^1.8.2",
+    "serve-favicon": "^2.4.3",
+    "socket.io": "^2.0.3",
+    "socket.io-redis": "^5.1.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "nodemon": "^1.11.0"
+  }
+}
